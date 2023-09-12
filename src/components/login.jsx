@@ -17,12 +17,12 @@ const Login = () => {
 					gap: "2rem",
 					marginTop: "1rem",
 					backgroundColor: "rgb(241, 241, 241)",
-					padding: 20,
+					padding: 30,
 					borderRadius: 10
 				}}
 			>
 				<h3 style={{ textAlign: "center" }}>Log In</h3>
-				<TextField label="Email"></TextField>
+				<TextField label="Email" sx={{ width: 400 }}></TextField>
 				<TextField label="Password" type="password"></TextField>
 				<Button>Submit</Button>
 			</form>
