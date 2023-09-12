@@ -17,12 +17,12 @@ const Register = () => {
 					gap: "2rem",
 					marginTop: "1rem",
 					backgroundColor: "rgb(241, 241, 241)",
-					padding: 20,
+					padding: 30,
 					borderRadius: 10
 				}}
 			>
 				<h3 style={{ textAlign: "center" }}>Register</h3>
-				<TextField label="Name"></TextField>
+				<TextField label="Name" sx={{ width: 400 }}></TextField>
 				<TextField label="Email" type="email"></TextField>
 				<TextField label="Address"></TextField>
 				<TextField label="Contact number"></TextField>
